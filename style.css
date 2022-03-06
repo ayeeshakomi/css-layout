@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  width: 900px;
+  margin: 20px auto;
+}
+.firstnavsection {
+  display: flex;
+}
+.firstnavsection h2 {
+  margin-top: -2px;
+}
+.firstnavsection h2 span {
+  color: #00ccb1;
+}
+.firstnavsection img {
+  height: 35px;
+  margin-right: 10px;
+}
+.secondnavsection a {
+  text-decoration: none;
+  color: black;
+}
+.secondnavsection a:nth-child(1) {
+  color: #00ccb1;
+}
+.secondnavsection a:nth-child(2) {
+  margin: 0px 20px;
+}
+.secondnavsection a:nth-child(2):hover,
+.secondnavsection a:nth-child(3):hover {
+  color: #00ccb1;
+}
+
+/* section */
+
+section {
+  width: 900px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionflex {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+}
+.sectionflex p {
+  font-size: 14px;
+}
+.linkbox {
+  display: grid;
+}
+.box{
+  border-radius: 5px;
+  color: white;
+  padding: 0px 20px;
+}
+.box img{
+  margin-top: 30px;
+}
+.box p{
+  margin-bottom: 80px;
+}
+.box a{
+  color: white;
+  margin-bottom: 20px;
+}
+#box1{
+  background-color: #00ccb1;
+}
+#box2{
+  background-color: #3D83DF;
+  margin: 0 20px;
+}
+#box3{
+  background-color: #1B2734;
+}
+.boxes{
+  width: 900px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+}
+/* .box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-top: 50px;
+} */
+
+.partners{
+  color: #00ccb1;
+}
+ 
